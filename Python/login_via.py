@@ -4,28 +4,19 @@ Spyder Editor
 
 This is a temporary script file.
 """
-'''
-i=0
 
-while i<10:
-    if i != 6:
-        print(i+1)
-    i+=1
-    
-print('done')
-'''
 import sys
 
-via_name="Evan"
-via_password="Happy123"
+via_name = "Evan"
+via_password = "Happy123"
 
-via_num=3
-via_fail_num=0
+via_num = 3
+via_fail_num = 0
 
 while via_fail_num < via_num:
     
-    user_name=input('请输入用户名：')
-    user_password=input('请输入密码：')
+    user_name = input('请输入用户名：')
+    user_password = input('请输入密码：')
     
     if user_name == via_name:
         if user_password == via_password:
